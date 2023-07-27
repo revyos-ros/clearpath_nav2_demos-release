@@ -1,0 +1,29 @@
+ros-humble-clearpath-nav2-demos (0.0.2-1jammy) jammy; urgency=high
+
+  * Updated sensor namespace
+  * Linter fix
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 27 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-nav2-demos (0.0.1-1jammy) jammy; urgency=high
+
+  * Added space to package.xml.
+  * Updated package.xml order.
+  * Added test dependencies.
+  * Added Github actions.
+  * Config updates
+  * Namespacing fixes
+  * Updated odom topics
+  * Fixed footprint and adjusted velocity/accel limits on J100
+  * Use config to set namespace and platform model
+  * Current best parameters for Husky
+  * Cleanup
+  * Jackal params
+  * Initial commit
+  * Initial commit
+  * Contributors: Hilary Luo, Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 17 Jul 2023 04:00:00 -0000
+
+

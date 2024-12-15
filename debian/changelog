@@ -1,0 +1,55 @@
+ros-humble-clearpath-nav2-demos (1.0.0-1jammy) jammy; urgency=high
+
+  * Added minimum version.
+  * Add config files for dingo, ridgeback. Waiting for confirmation that the acceleration limits & max angular velocities are correct
+  * Copy velocity & acceleration limits from clearpath_control
+  * Contributors: Tony Baltovski, Chris Iverach-Brereton
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 24 Nov 2024 16:00:00 -0000
+
+ros-humble-clearpath-nav2-demos (0.2.0-1jammy) jammy; urgency=high
+
+  * Increased inflation radius
+  * Added W200 configs
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 21 Jan 2024 16:00:00 -0000
+
+ros-humble-clearpath-nav2-demos (0.1.0-1jammy) jammy; urgency=high
+
+  * Updated get model function and remapped scan topics
+    * Update get model function to match clearpath config
+    * Remap to correct namespacing on scan topics
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 14 Sep 2023 16:00:00 -0000
+
+ros-humble-clearpath-nav2-demos (0.0.2-1jammy) jammy; urgency=high
+
+  * Updated sensor namespace
+  * Linter fix
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 26 Jul 2023 16:00:00 -0000
+
+ros-humble-clearpath-nav2-demos (0.0.1-1jammy) jammy; urgency=high
+
+  * Added space to package.xml.
+  * Updated package.xml order.
+  * Added test dependencies.
+  * Added Github actions.
+  * Config updates
+  * Namespacing fixes
+  * Updated odom topics
+  * Fixed footprint and adjusted velocity/accel limits on J100
+  * Use config to set namespace and platform model
+  * Current best parameters for Husky
+  * Cleanup
+  * Jackal params
+  * Initial commit
+  * Initial commit
+  * Contributors: Hilary Luo, Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 16 Jul 2023 16:00:00 -0000
+
+

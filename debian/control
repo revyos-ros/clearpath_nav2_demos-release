@@ -1,0 +1,12 @@
+Source: ros-humble-clearpath-nav2-demos
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-clearpath-nav2-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-clearpath-config (>= 1.0.0), ros-humble-nav2-bringup, ros-humble-slam-toolbox, ros-humble-ros-workspace
+Description: Nav2 demos for Clearpath robots

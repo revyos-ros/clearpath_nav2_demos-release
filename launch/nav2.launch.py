@@ -27,8 +27,8 @@
 # POSSIBILITY OF SUCH DAMAGE.
 from ament_index_python.packages import get_package_share_directory
 
-from clearpath_config.common.utils.yaml import read_yaml
 from clearpath_config.clearpath_config import ClearpathConfig
+from clearpath_config.common.utils.yaml import read_yaml
 
 from launch import LaunchDescription
 from launch.actions import (
@@ -89,6 +89,8 @@ def launch_setup(context, *args, **kwargs):
                  '/' + namespace + '/sensors/lidar2d_0/scan'),
         SetRemap('/' + namespace + '/local_costmap/sensors/lidar2d_0/scan',
                  '/' + namespace + '/sensors/lidar2d_0/scan'),
+        SetRemap('/' + namespace + '/odom',
+                 '/' + namespace + '/platform/odom'),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(launch_nav2),

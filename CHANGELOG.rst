@@ -2,12 +2,30 @@
 Changelog for package clearpath_nav2_demos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2024-11-25)
+2.5.0 (2025-05-30)
 ------------------
-* Added minimum version.
-* Add config files for dingo, ridgeback. Waiting for confirmation that the acceleration limits & max angular velocities are correct
-* Copy velocity & acceleration limits from clearpath_control
-* Contributors: Tony Baltovski, Chris Iverach-Brereton
+* Fix typos in issue templates (`#27 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/27>`_)
+* Add parameter files for Dingo (all variants), Ridgeback (`#25 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/25>`_)
+  * Add parameter files for Dingo (all variants), Ridgeback
+  * Add trailing newlines to config files, add missing remap to launch file
+* Fix the slam launch file to use the new lifecycle node (`#24 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/24>`_)
+* Contributors: Chris Iverach-Brereton, Hilary Luo
+
+2.4.0 (2025-04-30)
+------------------
+* Update nav2 configuration files for Jazzy (`#21 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/21>`_)
+* use_sim_time should not be in the yaml in Jazzy (`#19 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/19>`_)
+* Contributors: Chris Iverach-Brereton, Hilary Luo
+
+2.0.0 (2025-01-31)
+------------------
+* Enable stamped cmd_vel messages for Nav2
+* Add Nav2 config files for A300. Not yet tested on the physical robot (`#18 <https://github.com/clearpathrobotics/clearpath_nav2_demos/issues/18>`_)
+* Remove repos file from CI; it doesn't exist in this repo
+* Add source CI
+* Update CI for Jazzy
+* Fix import ordering, allow shadowing of builtin
+* Contributors: Chris Iverach-Brereton
 
 0.2.0 (2024-01-22)
 ------------------
